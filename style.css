@@ -114,12 +114,7 @@ background: linear-gradient(65deg, #3D9970, #FFDC00); /* Standard syntax */
 
 .header_text { padding-top: 100px; min-width: 100%; }
 /*GOOGLE MAPS*/
-#map {
-	height: 400px;
-	width: 100%;
-	background-color: white;
 
-	border-top: 1px solid white;
 
 	/*REMOVE TO MAKE MAP GRAY
 	-webkit-filter: grayscale(100%);
@@ -157,8 +152,8 @@ background-color: white;
 -moz-box-shadow: 9px 10px 39px -2px rgba(0,0,0,0.3);
 box-shadow: 9px 10px 39px -2px rgba(0,0,0,0.3);
 
-background-image: url(./images/logo.png);
-background-size: contain;
+background-image: url(images/logo.jpg);
+background-size: cover;
 background-position: center;
 background-repeat: no-repeat;
 }
