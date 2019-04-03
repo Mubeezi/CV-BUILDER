@@ -1,141 +1,271 @@
  <!DOCTYPE html>
 <html lang="de-CH">
 <head>
-<meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<link rel="stylesheet" href="./style.css">
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-<script src="https://code.jquery.com/jquery-1.10.2.js"></script>
-<!--START META DATA PAGE DESCRIPTION-->
-<meta name="Author" content="Calmar Solutions Schweiz - Erin McGowan - www.calmarsolutions.ch">
-<meta name="Copyright" content="Calmar Solutions">
-<meta name="Credit" content="https://thenounproject.com/">
-<meta name="description" content="Margs Surfcamp Margaret River">
-<meta name="keywords" content="Surfing, Camping, Margaret River, Western Australia">
-<!--END META DATA PAGE DESCRIPTION-->
-<title>CV BUILDER</title>
+	<title>CV BUILDER</title>
+
+	<meta name="author" content="Bruno Nicholas, Arthor B, Victor M">
+	<meta name="copyright" content="MIT">
+	<meta name="credit" content="#">
+	<meta name="description" content="The Outbox Ultimate CV Maker">
+	<meta name="keywords" content="CV, Potfolio, PDF, DOC, CV Maker, Bruno Nicholas">
+
+	<script src="https://code.jquery.com/jquery-1.10.2.js"></script>
+	<script type="text/javascript" src="engine1/jquery.js"></script>
+
+	<link rel="stylesheet" type="text/css" href="engine1/style.css" />
+	<link rel="stylesheet" href="./style.css">
+	<link rel="stylesheet" type="text/css" href="css/main.css">
 </head>
 <body>
-<a href="#top"><img class="arrow_image" src="./images/arrow.svg"></a>
-<a name="top"></a>
-<div id="change_class" class="flex_container section menu_section">
-	<div class="flex_item branding"><p></p></div>
-	<div class="flex_item menu_item dropdown">
-		<p>Menu</p>
-		<div class="dropdown-content">
-			<div class="menu_item menu_item_inside"><a href="#top"><p>Home</p></a></div>
-			<a href=""><div class="menu_item menu_item_inside"><a href="#team"><p>Breakdown</p></a></div>
-			<a href=""><div class="menu_item menu_item_inside"><a href="#contact"><p>Process</p></a></div>
+	<a href="#top"><img class="arrow_image" src="./images/arrow.svg"></a>
+	<div id="change_class" class="flex_container section menu_section">
+		<div class="flex_item branding"></div>
+		<div class="flex_item menu_item dropdown">
+			<p>Menu</p>
+			<div class="dropdown-content">
+				<div class="menu_item menu_item_inside">
+					<a href="#top">
+						<p>Home</p>
+					</a>
+				</div>
+				<div class="menu_item menu_item_inside">
+					<a href="#team">
+						<p>Breakdown</p>
+					</a>
+				</div>
+				<div class="menu_item menu_item_inside">
+					<a href="#contact">
+						<p>Process</p>
+					</a>
+				</div>
+				<div class="menu_item menu_item_inside">
+					<a href="#">
+						<p>CREATE CV</p>
+					</a>
+				</div>
+			</div>
+		</div>
+		<div class="flex_item menu_item menu_item_outside">
+			<a href="#top">
+				<p>Home</p>
+			</a>
+		</div>
+		<div class="flex_item menu_item menu_item_outside">
+			<a href="#team">
+				<p>Breakdown</p>
+			</a>
+		</div>
+		<div class="flex_item menu_item menu_item_outside">
+			<a href="#contact">
+				<p>Process</p>
+			</a>
+		</div>
+		<div class="flex_item menu_item menu_item_outside">
+			<a href="#">
+				<p>CREATE CV</p>
+			</a>
 		</div>
 	</div>
-	<div class="flex_item menu_item menu_item_outside"><a href="#top"><p>Home</p></a></div>
-	<div class="flex_item menu_item menu_item_outside"><a href="#team"><p>Breakdown</p></a></div>
-	<div class="flex_item menu_item menu_item_outside"><a href="#contact"><p>Process</p></a></div></a>
-</div>
 
-<div class="section page header_section">
-<div class="gradient gradient_red_blue gradient_header_section"></div>
-	<div class="section_container header_section_container flex_container flex_header_container">
-		<div class="text header_text">
-			<h1>OUTBOX CV BUILDER</h1>
-		</div>
-
-
-
-    <div class="text body_text flex_item flex_header_item">
-			<h2 class="header_quote">Join us as we design eye catching professional CVs</h2>
+	<div class="section page header_section">
+		<a name="top"></a>
+		<div class="gradient gradient_red_blue gradient_header_section"></div>
+		<div class="section_container header_section_container flex_container flex_header_container">
+			<div class="text header_text">
+				<h2>OUTBOX CV BUILDER</h2>
+			</div>
+			<div class="text body_text flex_item flex_header_item">
+				<div id="wowslider-container1">
+					<div class="ws_images">
+						<ul>
+							<li>
+								<img src="data1/images/unnamed.png" alt="Mobile PhoneAccess" title="Mobile PhoneAccess" id="wows1_0"/>
+							</li>
+							<li>
+								<img src="data1/images/one.png" alt="Choice of Display" title="Choice of Display" id="wows1_1"/>
+							</li>
+							<li>
+								<img src="data1/images/three.jpg" alt="One Place Builder" title="One Place Builder" id="wows1_2"/>
+							</li>
+							<li>
+								<img src="data1/images/two.png" alt="No Time To Waste" title="No Time To Waste" id="wows1_3"/>
+							</li>
+							<li>
+								<img src="data1/images/four.png" alt="Professional Resources" title="Professional Resources" id="wows1_4"/>
+							</li>
+							<li>
+								<img src="data1/images/five.png" alt="Share With All" title="Share With All" id="wows1_5"/>
+							</li>
+							<li>
+								<img src="data1/images/six.png" alt="Free Personal CV Download" title="Free Personal CV Download" id="wows1_6"/>
+							</li>
+							<li>
+								<img src="data1/images/seven.png" alt="css image gallery" title="Access From All Devices" id="wows1_7"/>
+							</li>
+							<li>
+								<img src="data1/images/eight.png" alt="Build CV instantly" title="Build CV instantly" id="wows1_8"/>
+							</li>
+						</ul>
+					</div>
+					<div class="ws_bullets">
+						<div>
+							<a href="#" title="Mobile PhoneAccess">
+								<span>
+									<img src="data1/tooltips/unnamed.png" alt="Mobile PhoneAccess"/>1
+								</span>
+							</a>
+							<a href="#" title="Choice of Display">
+								<span>
+									<img src="data1/tooltips/05_mono_resume_preview.png" alt="Choice of Display"/>2
+								</span>
+							</a>
+							<a href="#" title="One Place Builder">
+								<span>
+									<img src="data1/tooltips/500_f_94676382_64pubroyjrak83vw0qiptdjyaprcy8ju.jpg" alt="One Place Builder"/>3
+								</span>
+							</a>
+							<a href="#" title="No Time To Waste">
+								<span>
+									<img src="data1/tooltips/3027614861a104ca252deced3c17426d.png" alt="No Time To Waste"/>4
+								</span>
+							</a>
+							<a href="#" title="Professional Resources">
+								<span>
+									<img src="data1/tooltips/asset1.png" alt="Professional Resources"/>5
+								</span>
+							</a>
+							<a href="#" title="Share With All">
+								<span>
+									<img src="data1/tooltips/b11ac2cb.png" alt="Share With All"/>6
+								</span>
+							</a>
+							<a href="#" title="Free Personal CV Download">
+								<span>
+									<img src="data1/tooltips/cvbuildermicrosoftpdfdownloadfree.png" alt="Free Personal CV Download"/>7
+								</span>
+							</a>
+							<a href="#" title="Access From All Devices">
+								<span>
+									<img src="data1/tooltips/lpmbrownonlinepdf.png" alt="Access From All Devices"/>8
+								</span>
+							</a>
+							<a href="#" title="Build CV instantly">
+								<span>
+									<img src="data1/tooltips/resumebuilder.png" alt="Build CV instantly"/>9
+								</span>
+							</a>
+						</div>
+					</div>
+					<div class="ws_shadow"></div>
+				</div>	
+			</div>
+			<div class="text body_text flex_item flex_header_item" style="text-align: center;">
+				<h2 class="header_quote">Join us as you design your eye catching professional CVs</h2>
+				<a href="" class="button primary">CREATE NOW</a>
+			</div>
 		</div>
 	</div>
-</div>
-
-<div class="section page second_section">
-<a name="team"></a>
-	<div class="section_container second_section_container flex_container flex_center">
-		<div class="text header_text text_grad_purple_yellow">
-			<h1>Information Breakdown</h1>
-		</div>
-		<a href="#link1">
+	<div class="section page second_section">
+		<a name="team"></a>
+		<div class="section_container second_section_container flex_container flex_center">
+			<div class="text header_text text_grad_purple_yellow">
+				<h1>Information Breakdown</h1>
+			</div>
 			<div class="feature flex_feature_item feature1">
 				<div class="feature_image"></div>
 				<h2>Contacts</h2>
 				<p>When inputting your personal information, make sure information is precise and a true statement of who you are.</p>
 			</div>
-		</a>
-		<a href="#link2">
 			<div class="feature flex_feature_item feature2">
 				<div class="feature_image"></div>
 				<h2>Education</h2>
 				<p>Documentated information is a first priority as companies will refer to your colleges for confirmation on accuracy of your information.</p>
 			</div>
-		</a>
-		<a href="#link3">
+		<!--	
 			<div class="feature flex_feature_item feature3">
 				<div class="feature_image"></div>
 				<h2>Employment</h2>
 				<p>Duration of employment should be atleast one year to be considered as a fully beneficial employment experience.The rest should be considered under skills.</p>
 			</div>
-		</a>
-		<a href="#link4">
+		-->
 			<div class="feature flex_feature_item feature4">
 				<div class="feature_image"></div>
-				<h2>Hobbies & Skills</h2>
+				<h2>Skills</h2>
 				<p>This is  usually a tricky field as people tend to go overboard.Keep everyting as relevant as possible to show amazing work traits.</p>
 			</div>
-		</a>
-		<a href="#link5">
 			<div class="feature flex_feature_item feature5">
 				<div class="feature_image"></div>
 				<h2>References</h2>
-				<p>As you provide references make sure that the parties involved are competent and highly credible .</p>
+				<p>
+					As you provide references make sure that the parties involved are competent and highly credible .
+				</p>
 			</div>
-		</a>
-	</div>
-</div>
-
-<div class="section page third_section">
-<a name="contact"></a>
-	<div class="gradient gradient_red_yellow gradient_third_section"></div>
-	<div class="section_container third_section_container flex_container flex_center">
-		<div class="text header_text">
-			<h1>Process</h1>
 		</div>
-		<a href="#link6"><div class="feature offer flex_feature_item offer1">
-			<h2>Save time </h2>
-			<p>With Outbox’s free resume builder, we’ve taken the heavy lifting out of designing and formatting your resume. Using our flexible templates will save you hours—all you need to do is add your professional experience and customize the existing design as needed.</p>
-      <br>
-			<p>Rest assured that Outbox’s templates come designer-approved, so you don’t have to worry about how they look—because they already look great!</p>
-		</div></a>
-		<a href="#link7"><div class="feature offer flex_feature_item offer2">
-			<h2>CV for every industry</h2>
-			<p>Whether you’re a lawyer who works in the corporate sector or an interior stylist in the creative industry, Outbox’s graphic designers have created a wide range of templates that are suitable for whatever industry you find yourself in.
-      </p>
-        <br>
-			<p>For creative types, we have colorful templates with artistic, illustrative flourishes. Or, if you’re after something more formal, you can explore our collection of minimalist templates, sure to impress the most traditional of hiring managers.</p>
-		</div></a>
-		<a href="#link8"><div class="feature offer flex_feature_item offer3">
-			<h2>Unique Skill Presentation</h2>
-			<p>On average, recruiters take six seconds to look at a CV. So, if you’re looking for a distinctive way to highlight your skills, Outbox’s templates offer unique designs that will help you stand out.</p><br>
-			<p>From infographic timelines to one-page pitch decks, and even pie charts, with a few simple clicks you are able to clearly display all your career highlights so far.</p>
-		</div></a>
-    <a href="#link8"><div class="feature offer flex_feature_item offer4">
-			<h2> Many versions as you like</h2>
-			<p>One of the most time-consuming elements of applying for new jobs is customizing your cover letter and CV for each new role that you apply for.</p><br>
-			<p>With Outbox’s free CV builder, all your cover letter and CV designs can be saved offline for continuous access.</p>
-      <p>Create multiple versions of your CV, and make small edits where needed.</p>
-		</div></a>
 	</div>
-</div>
+	<div class="section page third_section">
+		<a name="contact"></a>
+		<div class="gradient gradient_red_yellow gradient_third_section"></div>
+		<div class="section_container third_section_container flex_container flex_center">
+			<div class="text header_text"> 
+				<h1>Process</h1>
+			</div>
+			<div class="feature offer flex_feature_item offer1">
+				<h2> Save time </h2>
+				<p>
+					With Outbox’s free resume builder, we’ve taken the heavy lifting out of designing and formatting your resume. Using our flexible templates will save you hours—all you need to do is add your professional experience and customize the existing design as needed.
+				</p>
+	      		<br>
+				<p>
+					Rest assured that Outbox’s templates come designer-approved, so you don’t have to worry about how they look—because they already look great!
+				</p>
+			</div>
+			<div class="feature offer flex_feature_item offer2">
+				<h2>CV for every industry</h2>
+				<p>
+					Whether you’re a lawyer who works in the corporate sector or an interior stylist in the creative industry, Outbox’s graphic designers have created a wide range of templates that are suitable for whatever industry you find yourself in.
+	      		</p>
+	        	<br>
+				<p>
+					For creative types, we have colorful templates with artistic, illustrative flourishes. Or, if you’re after something more formal, you can explore our collection of minimalist templates, sure to impress the most traditional of hiring managers.
+				</p>
+			</div>
+			<div class="feature offer flex_feature_item offer3">
+				<h2> Unique Skill Presentation </h2>
+				<p>
+					On average, recruiters take six seconds to look at a CV. So, if you’re looking for a distinctive way to highlight your skills, Outbox’s templates offer unique designs that will help you stand out.
+				</p>
+				<br>
+				<p>
+					From infographic timelines to one-page pitch decks, and even pie charts, with a few simple clicks you are able to clearly display all your career highlights so far.
+				</p>
+			</div>
+	    	<div class="feature offer flex_feature_item offer4">
+				<h2> Many versions as you like</h2>
+				<p>
+					One of the most time-consuming elements of applying for new jobs is customizing your cover letter and CV for each new role that you apply for.
+				</p>
+				<br>
+				<p>
+					With Outbox’s free CV builder, all your cover letter and CV designs can be saved offline for continuous access.
+				</p>
+	      		<p>
+	      			Create multiple versions of your CV, and make small edits where needed.
+	      		</p>
+			</div>
+		</div>
+	</div>
+	<div class="section footer_section">
+		<p class="footer_text">
+			Success is no accident.Work hard for what you want because it won't come to you without a fight.
+		</p>
+	</div>
+	<script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBE-AatCnNmEzkMZL2Rmqu87zjmDqpU3vA&callback=initMap"></script>
 
-
-
-<div class="section footer_section">
-<p class="footer_text">Success is no accident.Work hard for what you want because it won't come to you without a fight.</p>
-</div>
-
-<!--SCRIPT SECTION-->
-<script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBE-AatCnNmEzkMZL2Rmqu87zjmDqpU3vA&callback=initMap"></script>
-
-<script src="./script.js"></script>
-
+	<script type="text/javascript" src="engine1/wowslider.js"></script>
+	<script type="text/javascript" src="engine1/script.js"></script>
+	<script src="js/script.js"></script>
 </body>
 </html>
