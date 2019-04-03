@@ -2,181 +2,295 @@
 <html lang="en" dir="ltr">
   <head>
     <meta charset="utf-8">
-    <title>Form Page</title>
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" crossorigin="anonymous">
-  </head>
-    <h1>Please fill your details below for a kickass cv</h1>
+    <title> Form Page </title>
+    <!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" crossorigin="anonymous"> -->
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+    <link rel="stylesheet" type="text/css" href="css/styles.css">
   </head>
   <body>
     <div class="container">
-      <div class="row">
-        <div class="col-md-12">
-          <div class="row">.
-            <div class="col-2">
-
+      <form action="" method="POST">
+        <div class="row">
+          <div class="col-md-12" style="margin: 5px;">
+            <div class="card">
+              <div class="card-header">
+                <h1>Please fill in your details for a professional CV</h1>
+              </div>
             </div>
-              <div class="col-8">
-    <div class="card" style="width: 14.1rem;">
-      <div class="card-header">
-        <h2>Basic Information</h2>
-      </div>
-      <div class="card-body">
-        <div class="form-group">
-          <div class="row">
-            <div class="col-6">
-          <label for=""> Full Names: </label>
-          <input type="text" class="form-control" name="" value="" placeholder="Full Names">
+          </div>
+          <div class="col-md-12">
+            <div class="row center no-padding">
+              <div class="col-md" style="margin: 5px;">
+                <div class="card no-padding">
+                  <div class="card-header">
+                    <h3 class="text-center">Basic Information</h3>
+                  </div>
+                  <div class="card-body">
+                    <div class="form-group">
+                      <input type="text" class="form-control" name="name" value="" placeholder="Full Names: John Doe" title="Enter your full names">
+                    </div>
+                    <div class="form-group">
+                      <input type="text" class="form-control" name="email" value="" placeholder="Email 1: name@email.com" title="Enter your valid and active email">
+                      <input type="text" class="form-control" name="email2" value="" placeholder="Email 2: name@email.com" title="Enter another valid and active email if any">
+                    </div>
+                    <div class="form-group">
+                      <div class="row">
+                        <div class="col-md" title="Select your gender">
+                          <input type="radio" name="gender" value="Male"> <label>Male</label>
+                        </div>
+                        <div class="col-md" title="Select your gender">
+                          <input type="radio" name="gender" value="Female"> <label>Female</label>
+                        </div>
+                        <div class="col-md" title="Select your gender">
+                          <input type="radio" name="gender" value="Other"> <label>Other</label>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="form-group">
+                      <input type="text" class="form-control" name="telephone" value="" placeholder="Phone Number: 256700123456" title="Enter your valid and active phone number">
+                    </div>
+                    <div class="form-group">
+                      <input type="text" name="" class="form-control" value="" placeholder="Address: Street, City, Country" title="Enter your current address">
+                    </div>
+                    <div class="form-group">
+                      <div class="row">
+                        <div class="col-5">
+                          <label for=""> Date of Birth: </label>
+                        </div>
+                        <div class="col-md">
+                          <input type="date" class="form-control" name="" value="" title="Your Date of Birth">
+                        </div>
+                      </div>
+                    </div>
+                    <div class="form-group">
+                      <input type="text" class="form-control" name="" value="" placeholder="Nationality: Ugandan">
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md" style="margin: 5px;">
+                <div class="card">
+                  <div class="card-header">
+                    <h3 class="text-center"> Academic </h3>
+                  </div>
+                  <div class="card-body">
+                    <div class="form-group">
+                      <div class="row">
+                        <div class="col-md">
+                          <input type="number" name="" class="form-control" max="2019" placeholder="From: 2016" title="Year Joined">
+                        </div>
+                        <div class="col-md">
+                          <input type="number" name="" class="form-control" placeholder="To: 2019" title="Year graduated (Expected to graduate)">
+                        </div>
+                      </div>
+                      <div class="row">
+                        <div class="col-md">
+                          <input type="text" name="" class="form-control" placeholder="Level: Primary" title="Academic Level (Grade)">
+                        </div>
+                        <div class="col-md">
+                          <input type="text" name="" class="form-control" placeholder="Degree/Subjects: What you graduated with" title="What you graduated with">
+                          
+                        </div>
+                      </div>
+                      <input type="text" name="" class="form-control" placeholder="School Name: Outbox SSS" title="Name of School / University / Institution">
+                    </div>
+
+                    <div class="form-group">
+                      <div class="row">
+                        <div class="col-md">
+                          <input type="number" name="" class="form-control" max="2019" placeholder="From: 2016" title="Year Joined">
+                        </div>
+                        <div class="col-md">
+                          <input type="number" name="" class="form-control" placeholder="To: 2019" title="Year graduated (Expected to graduate)">
+                        </div>
+                      </div>
+                      <div class="row">
+                        <div class="col-md">
+                          <input type="text" name="" class="form-control" placeholder="Level: Primary" title="Academic Level (Grade)">
+                        </div>
+                        <div class="col-md">
+                          <input type="text" name="" class="form-control" placeholder="Degree/Subjects: What you graduated with" title="What you graduated with">
+                          
+                        </div>
+                      </div>
+                      <input type="text" name="" class="form-control" placeholder="School Name: Outbox SSS" title="Name of School / University / Institution">
+                    </div>
+
+                    <div class="form-group">
+                      <div class="row">
+                        <div class="col-md">
+                          <input type="number" name="" class="form-control" max="2019" placeholder="From: 2016" title="Year Joined">
+                        </div>
+                        <div class="col-md">
+                          <input type="number" name="" class="form-control" placeholder="To: 2019" title="Year graduated (Expected to graduate)">
+                        </div>
+                      </div>
+                      <div class="row">
+                        <div class="col-md">
+                          <input type="text" name="" class="form-control" placeholder="Level: Primary" title="Academic Level (Grade)">
+                        </div>
+                        <div class="col-md">
+                          <input type="text" name="" class="form-control" placeholder="Degree/Subjects: What you graduated with" title="What you graduated with">
+                          
+                        </div>
+                      </div>
+                      <input type="text" name="" class="form-control" placeholder="School Name: Outbox SSS" title="Name of School / University / Institution">
+                    </div>
+
+                  </div>
+                </div>
+              </div>
+              <div class="col-md" style="margin: 5px;">
+                <div class="card">
+                  <div class="card-header">
+                    <h3 class="text-center"> Employment </h3>
+                  </div>
+                  <div class="card-body">
+
+                    <div class="form-group">
+                      <div class="row">
+                        <div class="col-md">
+                          <input type="number" name="" class="form-control" max="2019" placeholder="From: 2016" title="Year You started working here!">
+                        </div>
+                        <div class="col-md">
+                          <input type="number" name="" class="form-control" placeholder="To: 2019" title="Year you stopped working here (Leave Balk if working here currently)">
+                        </div>
+                      </div>
+                      <div class="row">
+                        <div class="col-md">
+                          <input type="text" name="" class="form-control" placeholder="Role: Software Developer" title="Enter the role at this place of work">
+                        </div>
+                        <div class="col-md">
+                          <input type="text" name="" class="form-control" placeholder="Contacts & Address" title="Company contacts (email & phone number) and Address">
+                        </div>
+                      </div>
+                      <input type="text" name="" class="form-control" placeholder="Company name: Outbox Hub" title="Name of the Company or Organization">
+                    </div>
+
+                    <div class="form-group">
+                      <div class="row">
+                        <div class="col-md">
+                          <input type="number" name="" class="form-control" max="2019" placeholder="From: 2016" title="Year You started working here!">
+                        </div>
+                        <div class="col-md">
+                          <input type="number" name="" class="form-control" placeholder="To: 2019" title="Year you stopped working here (Leave Balk if working here currently)">
+                        </div>
+                      </div>
+                      <div class="row">
+                        <div class="col-md">
+                          <input type="text" name="" class="form-control" placeholder="Role: Software Developer" title="Enter the role at this place of work">
+                        </div>
+                        <div class="col-md">
+                          <input type="text" name="" class="form-control" placeholder="Contacts & Address" title="Company contacts (email & phone number) and Address">
+                        </div>
+                      </div>
+                      <input type="text" name="" class="form-control" placeholder="Company name: Outbox Hub" title="Name of the Company or Organization">
+                    </div>
+
+                    <div class="form-group">
+                      <div class="row">
+                        <div class="col-md">
+                          <input type="number" name="" class="form-control" max="2019" placeholder="From: 2016" title="Year You started working here!">
+                        </div>
+                        <div class="col-md">
+                          <input type="number" name="" class="form-control" placeholder="To: 2019" title="Year you stopped working here (Leave Balk if working here currently)">
+                        </div>
+                      </div>
+                      <div class="row">
+                        <div class="col-md">
+                          <input type="text" name="" class="form-control" placeholder="Role: Software Developer" title="Enter the role at this place of work">
+                        </div>
+                        <div class="col-md">
+                          <input type="text" name="" class="form-control" placeholder="Contacts & Address" title="Company contacts (email & phone number) and Address">
+                        </div>
+                      </div>
+                      <input type="text" name="" class="form-control" placeholder="Company name: Outbox Hub" title="Name of the Company or Organization">
+                    </div>
+
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <hr>
+          <div class="col-md-12">
+            <div class="row">
+              <div class="col-md">
+                <div class="card">
+                  <div class="card-header text-center">
+                    <h3> Personal Skills </h3>
+                  </div>
+                  <div class="card-body">
+                    <div class="form-group">
+                      <input type="text" name="skill1" class="form-control" placeholder="Personal Skill 1" title="Enter personal skill. You can group them in an entry!">
+                      <input type="text" name="skill2" class="form-control" placeholder="Personal Skill 2" title="Enter personal skill. You can group them in an entry!">
+                    </div>
+
+                    <div class="form-group">
+                      <input type="text" name="skill3" class="form-control" placeholder="Personal Skill 3" title="Enter personal skill. You can group them in an entry!">
+                      <input type="text" name="skill4" class="form-control" placeholder="Personal Skill 4" title="Enter personal skill. You can group them in an entry!">
+                    </div>
+
+                    <div class="form-group">
+                      <input type="text" name="skill5" class="form-control" placeholder="Personal Skill 5" title="Enter personal skill. You can group them in an entry!">
+                      <input type="text" name="skill6" class="form-control" placeholder="Personal Skill 6" title="Enter personal skill. You can group them in an entry!">
+                    </div>
+
+                    <div class="form-group">
+                      <input type="text" name="skill7" class="form-control" placeholder="Personal Skill 7" title="Enter personal skill. You can group them in an entry!">
+                      <input type="text" name="skill8" class="form-control" placeholder="Personal Skill 8" title="Enter personal skill. You can group them in an entry!">
+                    </div>
+
+                    <div class="form-group">
+                      <input type="text" name="skill9" class="form-control" placeholder="Personal Skill 9" title="Enter personal skill. You can group them in an entry!">
+                      <input type="text" name="skill10" class="form-control" placeholder="Personal Skill 10" title="Enter personal skill. You can group them in an entry!">
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md">
+                <div class="card">
+                  <div class="card-header text-center">
+                    <h3> Portfolio </h3>
+                  </div>
+                  <div class="card-body">
+                    
+                  </div>
+                </div>
+              </div>
+              <div class="col-md">
+                <div class="card">
+                  <div class="card-header text-center">
+                    <h3>References</h3>
+                  </div>
+                  <div class="card-body">
+                    
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-12">
+            <hr>
+            <div class="row">
+              <div class="col"></div>
+              <div class="col">
+                <input type="reset" value="CLEAR ALL" class="btn btn-danger btn-block" 
+                  onclick="return confirm('You are about to clear everything'+
+                  '.\nIs that what you want?')">
+              </div>
+              <div class="col">
+                <button type="submit" class="btn btn-block btn-primary">CREATE CV</button>
+              </div>
+              <div class="col"></div>
+            </div>
+            <hr>
+          </div>
         </div>
-      </div>
+      </form>
     </div>
-        <div class="form-group">
-          <div class="row">
-            <div class="col-6">
-          <label for=""> Phone_Number: </label>
-          <input type="text" class="form-control" name="" value="" placeholder="Phone Number">
-        </div>
-      </div>
-    </div>
-        <div class="form-group">
-          <div class="row">
-            <div class="col-6">
-          <label for=""> Email address: </label>
-          <input type="text" class="form-control" name="" value="" placeholder="email">
-        </div>
-      </div>
-        <div class="form-group">
-          <div class="row">
-            <div class="col-6">
-          <label for=""> Address: </label>
-          <input type="text" name="" class="form-control" value="" placeholder="City BoxNo">
-        </div>
-      </div>
-    </div>
-        <div class="form-group">
-          <div class="row">
-            <div class="col-6">
-          <label for=""> Date of Birth: </label>
-          <input type="date"  class="form-control"name="" value="" placeholder="Date of Birth">
-        </div>
-      </div>
-    </div>
-        <div class="form-group">
-          <div class="row">
-            <div class="col-6">
-          <label for=""> Nationality: </label>
-          <input type="text" class="form-control" name="" value="" placeholder="Nationality">
-        </div>
-      </div>
-    </div>
-    <div class="col-2">
-
-    </div>
-
-
-
-
-
-
-
-
-
-  </div>
-</div>
-
-    <h2>Academic Background</h2>
-    <table>
-      <tr>
-      <td>School/institution attended</td>
-      <td>Years</td>
-     <td>Certification earned</td>
-    </tr>
-       <tr>
-          <td><input type="text" name="" value="" ></td>
-          <td><input type="text" name="" value="" ></td>
-          <td><input type="text" name="" value="" ></td>
-        </tr>
-        <tr>
-           <td><input type="text" name="" value="" ></td>
-           <td><input type="text" name="" value="" ></td>
-           <td><input type="text" name="" value="" ></td>
-         </tr>
-         <tr>
-            <td><input type="text" name="" value="" ></td>
-            <td><input type="text" name="" value="" ></td>
-            <td><input type="text" name="" value="" ></td>
-          </tr>
-          <tr>
-             <td><input type="text" name="" value=""  ></td>
-             <td><input type="text" name="" value="" ></td>
-             <td><input type="text" name="" value="" ></td>
-           </tr>
-           <tr>
-              <td><input type="text" name="" value="" ></td>
-              <td><input type="text" name="" value="" ></td>
-              <td><input type="text" name="" value="" ></td>
-            </tr>
-            <tr>
-               <td><input type="text" name="" value="" ></td>
-               <td><input type="text" name="" value="" ></td>
-               <td><input type="text" name="" value="" ></td>
-             </tr>
-  </table>
-  <h2> <a name="Work Experience">Employment Details </a> </h2>
- <table>
-   <tr>
-     <td>Employment</td>
-     <td>Years</td>
-   </tr>
-   <tr>
-     <td><input type="text" name="" value="" ></td>
-     <td><input type="text" name="" value="" ></td>
-   </tr>
-   <tr>
-     <td><input type="text" name="" value="" ></td>
-     <td><input type="text" name="" value="" ></td>
-   </tr>
-   <tr>
-     <td><input type="text" name="" value="" ></td>
-     <td><input type="text" name="" value="" ></td>
-   </tr>
-   <tr>
-     <td><input type="text" name="" value="" ></td>
-     <td><input type="text" name="" value="" ></td>
-   </tr>
-   <tr>
-     <td><input type="text" name="" value="" ></td>
-     <td><input type="text" name="" value="" ></td>
-   </tr>
-</table>
-  <h2>Skills and competencies</h2>
-  <h3>List any skills you have acquired over the Years below</h3>
- <table>
-  <tr>
-    <td>skill 1</td>
-  </tr>
-  <tr>
-    <td><input type="text" name="" value="" ></td>
-    <tr>
-      <td>skill 2</td>
-    </tr>
-    <tr>
-      <td><input type="text" name="" value="" ></td>
-      <tr>
-        <td>skill 3</td>
-      </tr>
-      <tr>
-        <td><input type="text" name="" value="" ></td>
-        <tr>
-          <td>skill 4</td>
-        </tr>
-        <tr>
-          <td><input type="text" name="" value="" ></td>
-    </table>
-    <h2>Hobbies</h2>
-    <h3></h3>
- </div>
-    </div>
-      </div>
-        </div>
+    <footer>
+      
+    </footer>
   </body>
 </html>

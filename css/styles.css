@@ -1,0 +1,10 @@
+/* styles.css */
+
+input[type=text] {
+	margin: 2px;
+}
+input[type=number] {
+	margin: 2px;
+}
+
+
