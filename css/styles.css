@@ -1,5 +1,10 @@
 /* styles.css */
-
+body {
+	background-image: url('../images/background2_web.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-attachment: fixed;
+}
 input[type=text] {
 	margin: 2px;
 }
@@ -21,4 +26,7 @@ li {
 	.footers, #right-footer {
 		border: thin solid gray;
 	}
+}
+.card {
+	opacity: .85;
 }
