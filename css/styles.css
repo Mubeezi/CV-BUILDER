@@ -6,5 +6,19 @@ input[type=text] {
 input[type=number] {
 	margin: 2px;
 }
+.footers {
+	min-height: 100px;
+	border-right: thin solid gray;
+}
+#right-footer {
+	border: none;
+}
+li {
+	list-style: none;
+}
 
-
+@media only screen and (max-width: 600px) {
+	.footers, #right-footer {
+		border: thin solid gray;
+	}
+}
