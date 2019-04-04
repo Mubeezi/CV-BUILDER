@@ -11,30 +11,33 @@ console.log(value_of_control);*/
 
 $(document).ready(function(event){
 
-    $( "#form_1" ).on('submit',function( event ) {
+    $( "#form_1" ).submit(function( event ) {
           event.preventDefault();
 
-          var name = $('input[name=name]').val();
-          var gender = $('input[name=gender]').val();
-          var email = $(this).find('[name=email]').val();
-          var email2 = $(this).find('[name=email2]').val();
-          var telephone = $(this).find('[name=telephone]').val();
-          var date-of-Birth = $(this).find('[name=date-of-Birth]').val();
-          var school1 = $(this).find('[name=school1]').val();
-          var school2 = $(this).find('[name=school2]').val();
-          var school3 = $(this).find('[name=school3]').val();
-          var school4 = $(this).find('[name=school4]').val();
-          var school5 = $(this).find('[name=school5]').val();
-          var school6 = $(this).find('[name=school6]').val();
-          var range1 = $(this).find('[name=range1]').val();
-          var range2 = $(this).find('[name=range2]').val();
-          var range3 = $(this).find('[name=range3]').val();
-          var range4 = $(this).find('[name=range4]').val();
-          var grade1 = $(this).find('[name=grade1]').val();
-          var grade2 = $(this).find('[name=grade2]').val();
-          var grade3 = $(this).find('[name=grade3]').val();
-          var grade4 = $(this).find('[name=grade4]').val();
-          var job1 = $(this).find('[name=job1]').val();
+          var name         = $('input[name=name]').val();
+          var gender       = $('input[name=gender]').val();
+          var email        = $(this).find('[name=email]').val();
+          var email2       = $(this).find('[name=email2]').val();
+          var address      = $(this).find('[name=address]').val();
+          var telephone    = $(this).find('[name=telephone]').val();
+          var date_of_birth = $(this).find('[name=date_of_birth]').val();
+          var nationality      = $(this).find('[name=nationality]').val();
+          
+          var school1      = $(this).find('[name=school1]').val();
+          var school2      = $(this).find('[name=school2]').val();
+          var school3      = $(this).find('[name=school3]').val();
+          var school4      = $(this).find('[name=school4]').val();
+          var school5      = $(this).find('[name=school5]').val();
+          var school6      = $(this).find('[name=school6]').val();
+          var range1       = $(this).find('[name=range1]').val();
+          var range2       = $(this).find('[name=range2]').val();
+          var range3       = $(this).find('[name=range3]').val();
+          var range4       = $(this).find('[name=range4]').val();
+          var grade1       = $(this).find('[name=grade1]').val();
+          var grade2       = $(this).find('[name=grade2]').val();
+          var grade3       = $(this).find('[name=grade3]').val();
+          var grade4       = $(this).find('[name=grade4]').val();
+          var job1         = $(this).find('[name=job1]').val();
           var job2 = $(this).find('[name=job2]').val();
           var job3 = $(this).find('[name=job3]').val();
           var job-duration1 = $(this).find('[name=job-duration1]').val();
