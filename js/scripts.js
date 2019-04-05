@@ -84,7 +84,7 @@ $(document).ready(function(){
 
           var project3      = $(this).find('[name=project3]').val();
           var project3_desc       = $(this).find('[name=project3_desc]').val();
-          
+
           // portfolio
           var project1 = $(this).find('[name=project1]').val();
           var project1_desc = $(this).find('[name=project1_desc]').val();
@@ -112,14 +112,13 @@ $(document).ready(function(){
           var email_ref3 = $(this).find('[name=email_ref3]').val();
           var position_ref3 = $(this).find('[name=position_ref3]').val();
 
-
           // var workplace2 = $(this).find('[name=workplace2]').val();
           alert('New content as: \n Names:' + name + '\nGender: ' + gender + '\nBirth Date: ' + date_of_birth + '\nEmail: ' + email);
 
 
           //alert('New user added as: \nFirst name:' + firstname + '\nSecond name: ' + secondname + '\nPhone number: ' + phonenumber + '\nEmail: ' + email);
 
-          window.location.href = "index.html"
+          window.location.href = "reviews.html"
     });
 
 });
