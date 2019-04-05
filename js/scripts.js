@@ -78,43 +78,13 @@ $(document).ready(function(){
           // Portfolio
           var project1      = $(this).find('[name=project1]').val();
           var project1_desc       = $(this).find('[name=project1_desc]').val();
-          var project1      = $(this).find('[name=project1]').val();
-          var project1_desc       = $(this).find('[name=project1_desc]').val();
-          var project1      = $(this).find('[name=project1]').val();
-          var project1_desc       = $(this).find('[name=project1_desc]').val();
 
-          var range2       = $(this).find('[name=range2]').val();
-          var range3       = $(this).find('[name=range3]').val();
-          var range4       = $(this).find('[name=range4]').val();
-          var grade1       = $(this).find('[name=grade1]').val();
-          var grade2       = $(this).find('[name=grade2]').val();
-          var grade3       = $(this).find('[name=grade3]').val();
-          var grade4       = $(this).find('[name=grade4]').val();
-          var job1         = $(this).find('[name=job1]').val();
-          var job2 = $(this).find('[name=job2]').val();
-          var job3 = $(this).find('[name=job3]').val();
-          var job-duration1 = $(this).find('[name=job-duration1]').val();
-          var job-duration2 = $(this).find('[name=job-duration2]').val();
-          var job-duration3 = $(this).find('[name=job-duration3]').val();
-          var role1 = $(this).find('[name=role1]').val();
-          var role2 = $(this).find('[name=role2]').val();
-          var role3 = $(this).find('[name=role3]').val();
-          var address1 = $(this).find('[name=address1]').val();
-          var address2 = $(this).find('[name=address2]').val();
-          var address3 = $(this).find('[name=address3]').val();
-          var company1 = $(this).find('[name=company1]').val();
-          var company2 = $(this).find('[name=company2]').val();
-          var company3 = $(this).find('[name=company3]').val();
-          var skill1 = $(this).find('[name=skill1]').val();
-          var skill2 = $(this).find('[name=skill2]').val();
-          var skill3 = $(this).find('[name=skill3]').val();
-          var skill4 = $(this).find('[name=skill4]').val();
-          var skill5 = $(this).find('[name=skill5]').val();
-          var skill6 = $(this).find('[name=skill6]').val();
-          var skill7 = $(this).find('[name=skill7]').val();
-          var skill8 = $(this).find('[name=skill8]').val();
-          var skill9 = $(this).find('[name=skill9]').val();
-          var skill10 = $(this).find('[name=skill10]').val();
+          var project2      = $(this).find('[name=project2]').val();
+          var project2_desc       = $(this).find('[name=project2_desc]').val();
+
+          var project3      = $(this).find('[name=project3]').val();
+          var project3_desc       = $(this).find('[name=project3_desc]').val();
+          
           // portfolio
           var project1 = $(this).find('[name=project1]').val();
           var project1_desc = $(this).find('[name=project1_desc]').val();
