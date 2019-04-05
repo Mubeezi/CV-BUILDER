@@ -75,15 +75,6 @@ $(document).ready(function(){
           var skill8      = $(this).find('[name=skill8]').val();
           var skill9      = $(this).find('[name=skill9]').val();
           var skill10      = $(this).find('[name=skill10]').val();
-          // Portfolio
-          var project1      = $(this).find('[name=project1]').val();
-          var project1_desc       = $(this).find('[name=project1_desc]').val();
-
-          var project2      = $(this).find('[name=project2]').val();
-          var project2_desc       = $(this).find('[name=project2_desc]').val();
-
-          var project3      = $(this).find('[name=project3]').val();
-          var project3_desc       = $(this).find('[name=project3_desc]').val();
 
           // portfolio
           var project1 = $(this).find('[name=project1]').val();
