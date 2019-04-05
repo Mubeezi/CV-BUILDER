@@ -16,6 +16,8 @@ app.use(bodyParser.json());
 // for parsing multipart/form-data - uploading files
 app.use(upload.array()); 
 app.use(express.static('public'));
+// 
+app.use(express.urlencoded())
 
 
 let cvs = [
