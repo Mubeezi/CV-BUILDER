@@ -1,0 +1,382 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title> Form Page </title>
+    <!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" crossorigin="anonymous"> -->
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+    <link rel="stylesheet" type="text/css" href="css/styles.css">
+  </head>
+  <body>
+    <div class="container">
+      <form action="" method="POST" id="form">
+        <div class="row">
+          <div class="col-md-12" style="margin: 5px;">
+            <div class="card">
+              <div class="card-header">
+                <a href="index.html" class="float-right btn btn-sm btn-info">Back</a>
+                <h1>Please fill in your details for a professional CV</h1>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-12">
+            <div class="row center no-padding">
+              <div class="col-md" style="margin: 5px;">
+                <div class="card no-padding">
+                  <div class="card-header">
+                    <h3 class="text-center background-primary">Basic Information</h3>
+                  </div>
+                  <div class="card-body">
+                    <div class="form-group">
+                      <input type="text" class="form-control" name="name" value="" placeholder="Full Names: John Doe" title="Enter your full names" required>
+                    </div>
+                    <div class="form-group">
+                      <input type="text" class="form-control" name="email" value="" placeholder="Email 1: name@email.com" title="Enter your valid and active email" required>
+                      <input type="text" class="form-control" name="email2" value="" placeholder="Email 2: name@email.com" title="Enter another valid and active email if any" required>
+                    </div>
+                    <div class="form-group">
+                      <div class="row">
+                        <div class="col-md" title="Select your gender">
+                          <input type="radio" name="gender" value="Male" checked required> <label>Male</label>
+                        </div>
+                        <div class="col-md" title="Select your gender">
+                          <input type="radio" name="gender" value="Female" required> <label>Female</label>
+                        </div>
+                        <div class="col-md" title="Select your gender">
+                          <input type="radio" name="gender" value="Other" required> <label>Other</label>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="form-group">
+                      <input type="text" class="form-control" name="telephone" value="" placeholder="Phone Number: 256700123456" title="Enter your valid and active phone number" required>
+                    </div>
+                    <div class="form-group">
+                      <input type="text" name="address" class="form-control" value="" placeholder="Address: Street, City, Country" title="Enter your current address" required>
+                    </div>
+                    <div class="form-group">
+                      <div class="row">
+                        <div class="col-5">
+                          <label for=""> Date of Birth: </label>
+                        </div>
+                        <div class="col-md">
+                          <input type="date" class="form-control" name="date_of_birth" value="" title="Your Date of Birth" required>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="form-group">
+                      <input type="text" class="form-control" name="nationality" value="" placeholder="Nationality: Ugandan" required>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md" style="margin: 5px;">
+                <div class="card">
+                  <div class="card-header">
+                    <h3 class="text-center"> Academic </h3>
+                  </div>
+                  <div class="card-body">
+                    <div class="form-group">
+                      <div class="row">
+                        <div class="col-md">
+                          <input type="number" name="acad_year1" class="form-control" max="2019" placeholder="From: 2016" title="Year Joined" required>
+                        </div>
+                        <div class="col-md">
+                          <input type="number" name="acad_grad1" class="form-control" placeholder="To: 2019" title="Year graduated (Expected to graduate)" required>
+                        </div>
+                      </div>
+                      <div class="row">
+                        <div class="col-md">
+                          <input type="text" name="acad_level1" class="form-control" placeholder="Level: Primary" title="Academic Level (Grade)" required>
+                        </div>
+                        <div class="col-md">
+                          <input type="text" name="acad_degree1" class="form-control" placeholder="Degree/Subjects: What you graduated with" title="What you graduated with" required>
+                        </div>
+                      </div>
+                      <input type="text" name="acad_school1" class="form-control" placeholder="School Name: Outbox SSS" title="Name of School / University / Institution" required>
+                    </div>
+
+                    <div class="form-group">
+                      <div class="row">
+                        <div class="col-md">
+                          <input type="number" name="acad_year2" class="form-control" max="2019" placeholder="From: 2016" title="Year Joined" required>
+                        </div>
+                        <div class="col-md">
+                          <input type="number" name="acad_grad2" class="form-control" placeholder="To: 2019" title="Year graduated (Expected to graduate)" required>
+                        </div>
+                      </div>
+                      <div class="row">
+                        <div class="col-md">
+                          <input type="text" name="acad_level2" class="form-control" placeholder="Level: Primary" title="Academic Level (Grade)" required>
+                        </div>
+                        <div class="col-md">
+                          <input type="text" name="acad_degree2" class="form-control" placeholder="Degree/Subjects: What you graduated with" title="What you graduated with" required> 
+
+                        </div>
+                      </div>
+                      <input type="text" name="acad_school2" class="form-control" placeholder="School Name: Outbox SSS" title="Name of School / University / Institution" required>
+                    </div>
+
+                    <div class="form-group">
+                      <div class="row">
+                        <div class="col-md">
+                          <input type="number" name="acad_year3" class="form-control" max="2019" placeholder="From: 2016" title="Year Joined">
+                        </div>
+                        <div class="col-md">
+                          <input type="number" name="acad_grad3" class="form-control" placeholder="To: 2019" title="Year graduated (Expected to graduate)">
+                        </div>
+                      </div>
+                      <div class="row">
+                        <div class="col-md">
+                          <input type="text" name="acad_level3" class="form-control" placeholder="Level: Primary" title="Academic Level (Grade)">
+                        </div>
+                        <div class="col-md">
+                          <input type="text" name="acad_degree3" class="form-control" placeholder="Degree/Subjects: What you graduated with" title="What you graduated with">
+
+                        </div>
+                      </div>
+                      <input type="text" name="acad_school3" class="form-control" placeholder="School Name: Outbox SSS" title="Name of School / University / Institution">
+                    </div>
+
+                  </div>
+                </div>
+              </div>
+              <div class="col-md" style="margin: 5px;">
+                <div class="card">
+                  <div class="card-header">
+                    <h3 class="text-center"> Employment </h3>
+                  </div>
+                  <div class="card-body">
+
+                    <div class="form-group">
+                      <div class="row">
+                        <div class="col-md">
+                          <input type="number" name="emp_year1" class="form-control" max="2019" placeholder="From: 2016" title="Year You started working here!" required>
+                        </div>
+                        <div class="col-md">
+                          <input type="number" name="emp_to1" class="form-control" placeholder="To: 2019" title="Year you stopped working here (Leave Balk if working here currently)" required>
+                        </div>
+                      </div>
+                      <div class="row">
+                        <div class="col-md">
+                          <input type="text" name="emp_role1" class="form-control" placeholder="Role: Software Developer" title="Enter the role at this place of work" required>
+                        </div>
+                        <div class="col-md">
+                          <input type="text" name="emp_address1" class="form-control" placeholder="Contacts & Address" title="Company contacts (email & phone number) and Address" required>
+                        </div>
+                      </div>
+                      <input type="text" name="emp_company1" class="form-control" placeholder="Company name: Outbox Hub" title="Name of the Company or Organization">
+                    </div>
+
+                    <div class="form-group">
+                      <div class="row">
+                        <div class="col-md">
+                          <input type="number" name="emp_year2" class="form-control" max="2019" placeholder="From: 2016" title="Year You started working here!" required>
+                        </div>
+                        <div class="col-md">
+                          <input type="number" name="emp_to2" class="form-control" placeholder="To: 2019" title="Year you stopped working here (Leave Balk if working here currently)" required>
+                        </div>
+                      </div>
+                      <div class="row">
+                        <div class="col-md">
+                          <input type="text" name="emp_role2" class="form-control" placeholder="Role: Software Developer" title="Enter the role at this place of work" required>
+                        </div>
+                        <div class="col-md">
+                          <input type="text" name="emp_address2" class="form-control" placeholder="Contacts & Address" title="Company contacts (email & phone number) and Address" required>
+                        </div>
+                      </div>
+                      <input type="text" name="emp_company2" class="form-control" placeholder="Company name: Outbox Hub" title="Name of the Company or Organization" required>
+                    </div>
+
+                    <div class="form-group">
+                      <div class="row">
+                        <div class="col-md">
+                          <input type="number" name="emp_year3" class="form-control" max="2019" placeholder="From: 2016" title="Year You started working here!">
+                        </div>
+                        <div class="col-md">
+                          <input type="number" name="emp_to3" class="form-control" placeholder="To: 2019" title="Year you stopped working here (Leave Balk if working here currently)">
+                        </div>
+                      </div>
+                      <div class="row">
+                        <div class="col-md">
+                          <input type="text" name="emp_role3" class="form-control" placeholder="Role: Software Developer" title="Enter the role at this place of work">
+                        </div>
+                        <div class="col-md">
+                          <input type="text" name="emp_address3" class="form-control" placeholder="Contacts & Address" title="Company contacts (email & phone number) and Address">
+                        </div>
+                      </div>
+                      <input type="text" name="emp_company3" class="form-control" placeholder="Company name: Outbox Hub" title="Name of the Company or Organization">
+                    </div>
+
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-12">
+            <div class="row">
+              <div class="col-md">
+                <div class="card">
+                  <div class="card-header text-center">
+                    <h3> Personal Skills </h3>
+                  </div>
+                  <div class="card-body">
+                    <div class="form-group">
+                      <input type="text" name="skill1" class="form-control" placeholder="Personal Skill 1" title="Enter personal skill. You can group them in an entry!" required>
+                      <input type="text" name="skill2" class="form-control" placeholder="Personal Skill 2" title="Enter personal skill. You can group them in an entry!" required>
+                    </div>
+
+                    <div class="form-group">
+                      <input type="text" name="skill3" class="form-control" placeholder="Personal Skill 3" title="Enter personal skill. You can group them in an entry!" required>
+                      <input type="text" name="skill4" class="form-control" placeholder="Personal Skill 4" title="Enter personal skill. You can group them in an entry!" required>
+                    </div>
+
+                    <div class="form-group">
+                      <input type="text" name="skill5" class="form-control" placeholder="Personal Skill 5" title="Enter personal skill. You can group them in an entry!" required>
+                      <input type="text" name="skill6" class="form-control" placeholder="Personal Skill 6" title="Enter personal skill. You can group them in an entry!">
+                    </div>
+
+                    <div class="form-group">
+                      <input type="text" name="skill7" class="form-control" placeholder="Personal Skill 7" title="Enter personal skill. You can group them in an entry!">
+                      <input type="text" name="skill8" class="form-control" placeholder="Personal Skill 8" title="Enter personal skill. You can group them in an entry!">
+                    </div>
+
+                    <div class="form-group">
+                      <input type="text" name="skill9" class="form-control" placeholder="Personal Skill 9" title="Enter personal skill. You can group them in an entry!">
+                      <input type="text" name="skil10" class="form-control" placeholder="Personal Skill 10" title="Enter personal skill. You can group them in an entry!">
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md">
+                <div class="card">
+                  <div class="card-header text-center">
+                    <h3> Portfolio </h3>
+                  </div>
+                  <div class="card-body">
+                    <div class="form-group">
+                      <input type="text" name="project1" class="form-control" placeholder="Project 1" title="Enter project name." required>
+                      <textarea name="project1_desc" class="form-control" placeholder="Description" title="Well detailed description" required></textarea>
+                    </div>
+
+                    <div class="form-group">
+                      <input type="text" name="project2" class="form-control" placeholder="Project 2" title="Enter project name" required>
+                        <textarea name="project2_desc" class="form-control" placeholder="Description" title="Well detailed description" required></textarea>
+                    </div>
+
+                    <div class="form-group">
+                      <input type="text" name="project3" class="form-control" placeholder="Project 3" title="Enter project name">
+                        <textarea name="project3_desc" class="form-control" placeholder="Description" title="Well detailed description"></textarea>
+                    </div>
+                    <div class="form-group">
+                      <div class="row">
+                        <div class="col-3"><label>Upload Image: </label></div>
+                        <div class="col"><input type="file" name="profile_image" class="form-control" required></div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md">
+                <div class="card">
+                  <div class="card-header text-center">
+                    <h3>References</h3>
+                  </div>
+                  <div class="card-body">
+                    <div class="form-group">
+                      <input type="text" name="name_ref1" class="form-control" placeholder="Full Names" title="Name of person being referred to" required>
+                      <div class="row">
+                        <div class="col-md">
+                          <input type="number" name="phone_ref1" class="form-control"  placeholder="PhoneNo" title="Phone number of person being referred to" required>
+                        </div>
+                        <div class="col-md">
+                          <input type="email" name="email_ref1" class="form-control" placeholder="email address" title="Current email address of person being referred to" required>
+                        </div>
+                      </div>
+                     <input type="text" name="position_ref1" class="form-control" placeholder="Position & Name of Company" title="Current position held by person being referred to" required />
+                    </div>
+
+                    <div class="form-group">
+                      <input type="text" name="name_ref2" class="form-control" placeholder="Full Names" title="Name of person being referred to" required>
+                      <div class="row">
+                        <div class="col-md">s
+                          <input type="number" name="phone_ref2" class="form-control"  placeholder="PhoneNo" title="Phone number of person being referred to" required>
+                        </div>
+                        <div class="col-md">
+                          <input type="email" name="email_ref2" class="form-control" placeholder="email address" title="Current email address of person being referred to" required>
+                        </div>
+                      </div>
+                      <input type="text" name="position_ref2" class="form-control" placeholder="Position & Name of Company" title="Current position held by person being referred to" required>
+                    </div>
+
+                    <div class="form-group">
+                      <input type="text" name="name_ref3" class="form-control" placeholder="Full Names" title="Name of person being referred to">
+                      <div class="row">
+                        <div class="col-md">
+                          <input type="number" name="phone_ref3" class="form-control"  placeholder="PhoneNo" title="Phone number of person being referred to">
+                        </div>
+                        <div class="col-md">
+                          <input type="email" name="email_ref3" class="form-control" placeholder="email address" title="Current email address of person being referred to">
+                        </div>
+                      </div>
+                      <input type="text" name="position_ref3" class="form-control" placeholder="Position & Name of Company" title="Current position held by person being referred to">
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-12">
+            <hr>
+            <div class="row">
+              <div class="col">
+                <a href="index.html" class="btn btn-block btn-info">BACK</a>
+              </div>
+                <div class="col">
+                  <input type="reset" value="CLEAR ALL" class="btn btn-danger btn-block" onclick="return confirm('You are about to clear everything'+
+                    '.\nIs that what you want?')">
+                </div>
+                <div class="col">
+                  <button type="submit" class="btn btn-block btn-primary">CREATE CV</button>
+                </div>
+
+            </div>
+            <hr>
+          </div>
+        </div>
+      </form>
+    </div>
+    <footer class="container">
+      <div class="col-md-12">
+        <div class="row">
+          <div class="col-md text-center footers">
+            <p class="text-center"><b>Features Of The App</b></p>
+            <ul>
+              <li>Potfolio Details</li>
+              <li>CV Maker</li>
+              <li>PDF Printing</li>
+              <li>Job Recommendation</li>
+            </ul>
+          </div>
+          <div class="col-md text-center footers">
+            <br>
+            <h4>PRO CV BUILDER</h4>
+            <p>&copy;2019 - OutboxEDU Cohort 2</p>
+            <p><i>All Rights Researved</i></p>
+          </div>
+          <div class="col-md footers" id="right-footer">
+            <p class="text-center"><b>Developed By</b></p>
+            <p>1. Bruno Nicholas - <a href="mailto:sbnibro256@gmail.com">Email Contact</a></p>
+            <p>2. Victor M - <a href="mailto: ">Email Contact</a></p>
+            <p>3. Aurthur B - <a href="mailto: ">Email Contact</a></p>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="js/scripts.js" type="text/javascript"></script>
+  </body>
+
+  </html>
