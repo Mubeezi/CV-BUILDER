@@ -18,7 +18,7 @@ $(document).ready(function(){
           event.preventDefault();
 
           var name         = $('input[name=name]').val();
-          var gender       = $('input[name=gender]').val();
+          var gender       = $('input[name=gender]:checked').val();
           var email        = $(this).find('[name=email]').val();
           var email2       = $(this).find('[name=email2]').val();
           var address      = $(this).find('[name=address]').val();
@@ -113,7 +113,7 @@ $(document).ready(function(){
           var position_ref3 = $(this).find('[name=position_ref3]').val();
 
           // var workplace2 = $(this).find('[name=workplace2]').val();
-          alert('New content as: \n Names:' + name + '\nGender: ' + gender + '\nBirth Date: ' + date_of_birth + '\nEmail: ' + email);
+          confirm('New content as: \n Names:' + name + '\nGender: ' + gender + '\nBirth Date: ' + date_of_birth + '\nEmail: ' + email);
 
 
           //alert('New user added as: \nFirst name:' + firstname + '\nSecond name: ' + secondname + '\nPhone number: ' + phonenumber + '\nEmail: ' + email);
